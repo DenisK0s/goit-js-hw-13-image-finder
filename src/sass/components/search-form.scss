@@ -1,0 +1,25 @@
+.form-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 60px;
+
+  background-color: silver;
+}
+
+.search-form {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+
+  input {
+    width: 250px;
+    height: 25px;
+
+    padding: 10px;
+
+    outline: none;
+    border: none;
+  }
+}
